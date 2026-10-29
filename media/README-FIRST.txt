@@ -1,0 +1,1 @@
+NEW MEDIA: add one JSON file under media/items. Update media/featured.json only when the item should be highlighted. Use a branch and pull request. Do not hand-edit the large legacy archive for routine additions.
