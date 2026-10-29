@@ -29,7 +29,7 @@
         <div class="featured-media-grid">
           ${items.map(item => `
             <article class="featured-media-card">
-              <p class="featured-media-meta">${escapeHtml(item.series || item.format)}${item.series_episode ? ` · Episode ${escapeHtml(item.series_episode)}` : ''} · ${escapeHtml(item.publication_date)}</p>
+              <p class="featured-media-meta">${escapeHtml(item.series || item.format)}${item.series_episode ? ` · ${escapeHtml(item.series_episode)}` : ''} · ${escapeHtml(item.publication_date)}</p>
               <h3>${escapeHtml(item.title)}</h3>
               <p>${escapeHtml(item.summary)}</p>
               <a href="${escapeHtml(item.source_url)}" target="_blank" rel="noopener noreferrer">Listen / read →</a>
