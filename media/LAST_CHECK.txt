@@ -1,0 +1,1 @@
+Final phase-one comparison target: main. Expected result: only additive media-system files and the validation workflow; no production page or legacy CSV modifications.
