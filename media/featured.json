@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "display": {
+    "heading": "Latest & Featured",
+    "max_items": 4
+  },
+  "featured_items": [
+    "items/2026-10-27-adaptive-enterprise-192.json",
+    "items/2026-10-20-adaptive-enterprise-article-2.json",
+    "items/2026-10-13-adaptive-enterprise-191.json",
+    "items/2026-10-06-adaptive-enterprise-article-1.json"
+  ],
+  "series": [
+    {
+      "id": "adaptive-enterprise",
+      "title": "The Adaptive Enterprise",
+      "description": "A five-part series exploring how leaders redesign work, governance and operating models to turn AI capability into measurable business value.",
+      "items": [
+        "items/2026-10-27-adaptive-enterprise-192.json",
+        "items/2026-10-20-adaptive-enterprise-article-2.json",
+        "items/2026-10-13-adaptive-enterprise-191.json",
+        "items/2026-10-06-adaptive-enterprise-article-1.json"
+      ]
+    }
+  ]
+}
