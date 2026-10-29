@@ -1,0 +1,12 @@
+{
+  "id": "unique-media-id",
+  "title": "Media title",
+  "publication_date": "YYYY-MM-DD",
+  "format": "Article | Podcast | Video",
+  "series": "Optional series name",
+  "series_episode": "Optional series label",
+  "folder": "Topic",
+  "source_url": "https://example.com/source",
+  "featured": false,
+  "summary": "One concise description of why the item matters."
+}
