@@ -1,0 +1,1 @@
+For routine media additions, do not edit index.html, media.html, or media_library.csv. Add a media/items JSON record and update featured.json only if promotion is needed.
