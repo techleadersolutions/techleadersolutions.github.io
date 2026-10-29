@@ -1,0 +1,1 @@
+Safe incremental media records + Featured manifest + Adaptive Enterprise grouping + defensive renderer + validation. Live site unchanged.
