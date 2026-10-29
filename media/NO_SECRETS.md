@@ -1,0 +1,1 @@
+No passwords, personal access tokens, API keys, or other credentials belong in this directory. Repository access should remain through the authenticated GitHub connection rather than embedded credentials.
