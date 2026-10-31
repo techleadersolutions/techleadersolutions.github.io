@@ -35,12 +35,17 @@ for (const file of files) {
 
 try {
   const manifest = JSON.parse(fs.readFileSync(path.join(root,'featured.json'),'utf8'));
-  const refs = [...(manifest.featured_items || []), ...(manifest.series || []).flatMap(s => s.items || [])];
-  const seenRefs = new Set();
-  for (const ref of refs) {
-    if (seenRefs.has(ref)) failures.push(`featured.json: duplicate reference ${ref}`);
-    seenRefs.add(ref);
-    if (!fs.existsSync(path.join(root,ref))) failures.push(`featured.json: missing reference ${ref}`);
+  const groups = [
+    ['featured_items', manifest.featured_items || []],
+    ...(manifest.series || []).map(s => [`series:${s.id || s.title || 'unnamed'}`, s.items || []])
+  ];
+  for (const [groupName, refs] of groups) {
+    const seenRefs = new Set();
+    for (const ref of refs) {
+      if (seenRefs.has(ref)) failures.push(`featured.json: duplicate reference ${ref} within ${groupName}`);
+      seenRefs.add(ref);
+      if (!fs.existsSync(path.join(root,ref))) failures.push(`featured.json: missing reference ${ref}`);
+    }
   }
 } catch (error) { failures.push(`featured.json: ${error.message}`); }
 
