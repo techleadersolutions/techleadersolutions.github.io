@@ -33,20 +33,27 @@ for (const file of files) {
   } catch (error) { failures.push(`${file}: invalid JSON (${error.message})`); }
 }
 
+function validateRefs(label, refs) {
+  const seen = new Set();
+  for (const ref of refs || []) {
+    if (seen.has(ref)) failures.push(`${label}: duplicate reference ${ref}`);
+    seen.add(ref);
+    if (!fs.existsSync(path.join(root, ref))) failures.push(`${label}: missing reference ${ref}`);
+  }
+}
+
+try {
+  const catalog = JSON.parse(fs.readFileSync(path.join(root,'catalog.json'),'utf8'));
+  validateRefs('catalog.json', catalog.items);
+  const catalogFiles = new Set((catalog.items || []).map(ref => path.basename(ref)));
+  for (const file of files) if (!catalogFiles.has(file)) failures.push(`catalog.json: structured item not indexed ${file}`);
+  for (const ref of catalog.items || []) if (!files.includes(path.basename(ref))) failures.push(`catalog.json: non-item reference ${ref}`);
+} catch (error) { failures.push(`catalog.json: ${error.message}`); }
+
 try {
   const manifest = JSON.parse(fs.readFileSync(path.join(root,'featured.json'),'utf8'));
-  const groups = [
-    ['featured_items', manifest.featured_items || []],
-    ...(manifest.series || []).map(s => [`series:${s.id || s.title || 'unnamed'}`, s.items || []])
-  ];
-  for (const [groupName, refs] of groups) {
-    const seenRefs = new Set();
-    for (const ref of refs) {
-      if (seenRefs.has(ref)) failures.push(`featured.json: duplicate reference ${ref} within ${groupName}`);
-      seenRefs.add(ref);
-      if (!fs.existsSync(path.join(root,ref))) failures.push(`featured.json: missing reference ${ref}`);
-    }
-  }
+  validateRefs('featured.json featured_items', manifest.featured_items || []);
+  for (const s of manifest.series || []) validateRefs(`featured.json series:${s.id || s.title || 'unnamed'}`, s.items || []);
 } catch (error) { failures.push(`featured.json: ${error.message}`); }
 
 for (const siteFile of ['index.html','media.html','adaptive-enterprise.html','john-marcante.html']) {
@@ -55,4 +62,4 @@ for (const siteFile of ['index.html','media.html','adaptive-enterprise.html','jo
 }
 
 if (failures.length) { console.error(failures.join('\n')); process.exit(1); }
-console.log(`Media validation passed: ${files.length} structured item(s), unique IDs, valid dates/URLs, manifest references and core site files.`);
+console.log(`Media validation passed: ${files.length} structured item(s), unique IDs, valid dates/URLs, complete catalog indexing, manifest references and core site files.`);
