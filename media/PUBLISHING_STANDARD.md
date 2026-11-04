@@ -21,3 +21,18 @@ Validation must reject invalid JSON, missing required fields, duplicate IDs, inv
 
 ## Distribution tracking
 After GitHub publication, separately track LinkedIn media/Featured placement and Wix parity. GitHub remains authoritative; Wix is a secondary mirror/backup and should not become a competing source of truth.
+
+
+## Standard release checklist for every new media item
+
+1. Verify the actual publication, canonical source, date, title, author/guest attribution, format and series position. Distinguish a launch post from the article itself and publication time from observation/crawl time.
+2. Check records, archive and open PRs for duplicates. Update the structured record, catalog and featured/series manifest first. While legacy pages remain, update their visible cards, structured metadata and CSV additively; preserve every working older item and its filters.
+3. Validate in a focused branch/PR: media validator, metadata, links, ordering, duplicate detection, preservation of older cards, and relevant desktop/mobile rendering. Record any unverified aspect. Merge/publish within the current authorization, then verify the live release separately.
+4. Verify the Adaptive Enterprise page, Media Gallery, homepage and John Marcante profile where relevant. Keep agreed YouTube destinations for video podcasts.
+5. Present exact LinkedIn promotion copy for John's review: post, repost or comment as appropriate, plus a Publications/Featured placement decision. Avoid duplicate promotion and never treat permission for one post as recurring social-publishing permission.
+6. Prepare the Technology Leadership Solutions Facebook copy linking the verified item and tagging/linking John. Resolve the correct person/page and confirm publication separately; record approval requirements.
+7. Mirror approved/live metadata on the existing Wix backup after GitHub is authoritative. Preserve the existing site's design and unrelated saved work; verify publication rather than only saving a draft.
+8. Update the Website Project Plan and media tracker with exact source/publication URL, PR/deployment evidence, social and Wix status, unresolved steps and next action. Mark each surface separately as prepared, approved, published and verified.
+9. Assess public discussion and due engagement windows near24h,72h and7days where actual observations exist. Separate reactions, comments and reposts; no inferred impressions, rates or equivalent-age comparisons without inputs. Propose useful replies for review.
+
+Keep using the existing website/media and mention-monitoring tasks; do not create a duplicate release automation. The next release inherits this checklist, with platform-specific review and user preferences preserved.
