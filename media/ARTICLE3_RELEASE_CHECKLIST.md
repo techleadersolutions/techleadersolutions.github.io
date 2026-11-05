@@ -11,8 +11,9 @@ Updated: November 5, 2026. This document tracks verified status separately from 
 - GitHub PR #17 subsequently promoted the October 27 Podcast 2 on the homepage and fixed the series contact link.
 - GitHub PR #14 merged November 5, adding the read-only archive reconciliation audit. PR #18 merged, adding Media Gallery search/format filters. PR #19 merged, bringing the structured catalog to eight records and aligning Podcast 2 with its YouTube destination.
 
+- **LinkedIn Featured:** Completed November 5. Featured the existing approved Article 3 repost; verified Remove from featured in the picker and Article 3 first in the Featured list. Existing post wording and other Featured items preserved.
+
 ## Approved but still outstanding
-- **LinkedIn Featured:** John explicitly approved featuring Article 3. Verify the current Featured section, avoid duplicates, add the canonical article link through an authorized LinkedIn workflow, then confirm actual placement. The repost is not proof of Featured placement.
 - **Facebook:** John's exact Article 3 promotional copy is approved but not published. Facebook authentication was previously declined; do not retry sign-in without renewed direction. When access is available, check for duplicates, tag/link the correct John profile and verify the published post.
 - **LinkedIn Publications:** review whether Article 3 belongs there; verify before claiming completion.
 
