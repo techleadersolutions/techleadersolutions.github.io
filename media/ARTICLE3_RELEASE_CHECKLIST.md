@@ -1,24 +1,26 @@
 # Adaptive Enterprise Article 3: release and LinkedIn Featured checklist
 
-Status: approved for LinkedIn Featured by John Marcante; publication and placement not yet verified (2026-11-04).
+Updated: November 5, 2026. This document tracks verified status separately from pending external actions.
 
-## Release gate
-- Verify publisher's final article title, full publication date, canonical HTTPS URL, summary and authors. Do not invent metadata or treat related posts as the published article.
-- Check for an existing matching media ID or canonical URL before creating one new record in media/items/.
-- Update media/catalog.json and media/featured.json (Latest & Featured and Adaptive Enterprise series), keeping newest-first ordering and both existing podcasts discoverable.
-- Validate JSON, IDs, dates, URLs, manifest references and site/build integrity on a branch and review diff/PR before merge. Preserve legacy media.html, downloads, SEO, and all live pages.
-- Verify gallery/series/profile/homepage placements once data-driven rendering is integrated. Do not claim those surfaces are live until tested.
+## Published and verified
+- Article: **Stop Measuring AI Activity. Start Managing Outcomes.** by John Marcante and Barry O'Reilly; published November 3, 2026.
+- Canonical URL: https://barryoreilly.com/explore/blog/stop-measuring-ai-activity-start-managing-outcomes/
+- GitHub PR #15 merged; Article 3 verified live on homepage, Media Gallery, Adaptive Enterprise series and profile. The full 88-item static archive was retained.
+- LinkedIn: John's Article 3 repost was published November 4; do **not** post a duplicate. Permalink: https://www.linkedin.com/feed/update/urn:li:activity:7523857101698375684/
+- Wix: Article 3 is the first card in the eight-item gallery, with its canonical source link; published and verified November 4.
+- GitHub PR #17 subsequently promoted the October 27 Podcast 2 on the homepage and fixed the series contact link.
+- GitHub PR #14 merged November 5, adding the read-only archive reconciliation audit. PR #18 merged, adding Media Gallery search/format filters. PR #19 merged, bringing the structured catalog to eight records and aligning Podcast 2 with its YouTube destination.
 
-## LinkedIn Featured: approved, not yet placed
-- John approved featuring Article 3 on LinkedIn when published.
-- Prepare the final Featured link using the canonical published article URL and its verified title.
-- Check John's actual LinkedIn Featured section and avoid duplicates; public search does not prove Featured placement.
-- Publish the Featured update using an authorized LinkedIn workflow, then verify its presence. If unavailable, provide John the direct link and exact steps for manual placement.
-- Recommend a coordinated LinkedIn post/repost/comment and a Technology Leadership Solutions Facebook post tagging John; request approval for public posts before publishing.
+## Approved but still outstanding
+- **LinkedIn Featured:** John explicitly approved featuring Article 3. Verify the current Featured section, avoid duplicates, add the canonical article link through an authorized LinkedIn workflow, then confirm actual placement. The repost is not proof of Featured placement.
+- **Facebook:** John's exact Article 3 promotional copy is approved but not published. Facebook authentication was previously declined; do not retry sign-in without renewed direction. When access is available, check for duplicates, tag/link the correct John profile and verify the published post.
+- **LinkedIn Publications:** review whether Article 3 belongs there; verify before claiming completion.
 
-## Featured editorial rule
-Feature selective, durable material of clear board/CEO/CIO relevance, not every release. Review older Featured items for replacement rather than accumulating too many entries.
+## GitHub migration gate
+- The 88-entry legacy gallery/CSV remains intact and live. Eight structured records currently match legacy destinations, leaving 80 historical entries to convert.
+- Seven historical dates are incomplete/uncertain and one legacy HTTP URL needs publisher verification. Do not invent dates or silently normalize destinations.
+- Keep both Adaptive Enterprise podcasts prominent. Do not retire or destructively replace media.html until complete reconciliation, validation, rendering parity and site/build checks pass.
+- Continue small batch conversions on focused branches/PRs; preserve newest-first order, search, format/topic filters, metadata, downloads and SEO.
 
-## Audit follow-up
-- PR #14 reconciliation audit is still draft; run and resolve differences before retiring media.html.
-- Track Wix parity only after GitHub publication and validation.
+## Every new media release
+Decide explicitly whether GitHub Latest & Featured, LinkedIn Featured, LinkedIn post/repost/comment and TLS Facebook promotion are warranted. Present recommendations and obtain exact-copy approval for new social posts. Verify each actual publication. Wix remains a downstream mirror, not the source of truth.
