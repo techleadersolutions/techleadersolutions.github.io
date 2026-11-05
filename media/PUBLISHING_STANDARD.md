@@ -21,3 +21,9 @@ Validation must reject invalid JSON, missing required fields, duplicate IDs, inv
 
 ## Distribution tracking
 After GitHub publication, separately track LinkedIn media/Featured placement and Wix parity. GitHub remains authoritative; Wix is a secondary mirror/backup and should not become a competing source of truth.
+
+## Featured placement decision for every new media discovery
+For each newly discovered or published article, podcast, video, or interview, explicitly ask: **Does this media warrant featured placement?** Record a recommendation and rationale for (a) GitHub Latest & Featured and relevant series/profile/homepage surfaces and (b) LinkedIn Featured. Do not assume every media item belongs in LinkedIn Featured: prioritize enduring board, CEO, CIO, AI governance, enterprise transformation, and leadership relevance, and avoid crowding the profile with consecutive series installments. Verify actual LinkedIn Featured placement separately; public search visibility is not proof of placement. Obtain John's approval before changing LinkedIn Featured.
+
+## Social distribution decision for every new media discovery
+After the validated GitHub record is published, assess LinkedIn post/repost/comment and Technology Leadership Solutions Facebook promotion with a tag/link to John Marcante. Recommend whether to post, suggested timing, and a draft in John's voice. Coordinate with Barry O'Reilly's Adaptive Enterprise release campaign and avoid duplicate or competing posts. Track whether each recommendation is approved, posted, or pending; do not claim a social post was published without verification. Maintain Wix as downstream parity/backup.
