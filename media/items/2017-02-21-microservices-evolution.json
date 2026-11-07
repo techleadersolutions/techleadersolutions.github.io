@@ -1,0 +1,19 @@
+{
+  "id": "microservices-evolution",
+  "title": "The Journey to Microservices Architecture",
+  "publication_date": "2017-02-21",
+  "format": "Article",
+  "folder": "04 – Innovation",
+  "source_url": "https://enterprisersproject.com/article/2017/2/vanguard-cio-why-we-re-journey-evolve-microservices-architecture",
+  "featured": false,
+  "summary": "John outlines an incremental approach to replacing parts of legacy applications with reusable, independently deployed services. The authored article discusses resilience, cloud scalability and modernization without a wholesale platform replacement.",
+  "provenance": {
+    "type": "existing_archive",
+    "sources": [
+      "media.html",
+      "media_library.csv"
+    ],
+    "publisher_reverification": "pending",
+    "summary_basis": "existing_archive_description"
+  }
+}

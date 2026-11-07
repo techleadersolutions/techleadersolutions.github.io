@@ -1,0 +1,19 @@
+{
+  "id": "when-business-leaders-speak-tech",
+  "title": "When Business Leaders Speak Tech",
+  "publication_date": "2018-03-20",
+  "format": "Article",
+  "folder": "03 – Leadership & Culture",
+  "source_url": "https://enterprisersproject.com/article/2018/3/vanguard-cio-when-business-leaders-speak-tech",
+  "featured": false,
+  "summary": "John explains how educating business leaders about technology and rotating leaders between business and IT builds shared understanding. The authored article connects executive development, hackathons and technology fluency with business strategy.",
+  "provenance": {
+    "type": "existing_archive",
+    "sources": [
+      "media.html",
+      "media_library.csv"
+    ],
+    "publisher_reverification": "pending",
+    "summary_basis": "existing_archive_description"
+  }
+}
