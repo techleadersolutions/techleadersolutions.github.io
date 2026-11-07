@@ -1,0 +1,21 @@
+{
+  "id": "the-cio-who-mastered-the-cross-section-of-technology-and-business",
+  "title": "The CIO Who Mastered the Cross Section of Technology and Business",
+  "publication_date": "2023-09-26",
+  "format": "Article",
+  "folder": "Strategy & transformation",
+  "source_url": "https://ciotechworld.com/the-cio-who-mastered-the-cross-section-of-technology-and-business/",
+  "featured": false,
+  "summary": "In an interview with Emmanuel Ramos, John reflects on moving between technology and business leadership, building business acumen, developing trusted mentors, and preparing CIOs to influence enterprise strategy.",
+  "provenance": {
+    "type": "publisher_metadata_verified",
+    "sources": [
+      "media.html",
+      "media_library.csv",
+      "https://ciotechworld.com/the-cio-who-mastered-the-cross-section-of-technology-and-business/"
+    ],
+    "date_verified_on": "2026-11-07",
+    "date_evidence": "Publisher article:published_time and JSON-LD datePublished",
+    "summary_basis": "existing_archive_description"
+  }
+}
