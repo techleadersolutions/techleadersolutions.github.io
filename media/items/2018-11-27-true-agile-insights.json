@@ -1,0 +1,19 @@
+{
+  "id": "true-agile-insights",
+  "title": "Is What You're Doing True Agile?",
+  "publication_date": "2018-11-27",
+  "format": "Article",
+  "folder": "03 – Leadership & Culture",
+  "source_url": "https://enterprisersproject.com/article/2018/11/what-youre-doing-true-agile",
+  "featured": false,
+  "summary": "John connects agile business practices with cloud infrastructure, automated controls and continuous delivery. His authored article explains why faster development needs supporting changes across technology and business teams.",
+  "provenance": {
+    "type": "existing_archive",
+    "sources": [
+      "media.html",
+      "media_library.csv"
+    ],
+    "publisher_reverification": "pending",
+    "summary_basis": "existing_archive_description"
+  }
+}

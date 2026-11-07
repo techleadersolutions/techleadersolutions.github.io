@@ -1,0 +1,19 @@
+{
+  "id": "are-you-an-enterpriser",
+  "title": "Are You an Enterpriser?",
+  "publication_date": "2014-10-16",
+  "format": "Article",
+  "folder": "Leadership & culture",
+  "source_url": "https://enterprisersproject.com/article/2014/10/are-you-enterpriser",
+  "featured": false,
+  "summary": "Archived article featuring John Marcante: Are You an Enterpriser?.",
+  "provenance": {
+    "type": "existing_archive",
+    "sources": [
+      "media.html",
+      "media_library.csv"
+    ],
+    "publisher_reverification": "pending",
+    "summary_basis": "archive_title_only"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "transformation-model-speed-innovation",
+  "title": "A Transformation Model for Speed and Innovation",
+  "publication_date": "2017-01-12",
+  "format": "Article",
+  "folder": "02 – Strategy & Transformation",
+  "source_url": "https://enterprisersproject.com/article/2016/11/transformation-model-enables-vanguard-it-increase-speed-and-innovation",
+  "featured": false,
+  "summary": "John presents a three-tier transformation model spanning agile infrastructure, software delivery and business culture. His authored article connects cloud, automated testing, microservices and cross-functional experimentation with faster delivery of business value.",
+  "provenance": {
+    "type": "existing_archive",
+    "sources": [
+      "media.html",
+      "media_library.csv"
+    ],
+    "publisher_reverification": "pending",
+    "summary_basis": "existing_archive_description"
+  }
+}

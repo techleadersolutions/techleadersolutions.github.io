@@ -1,0 +1,19 @@
+{
+  "id": "how-vanguard-optimizes-agile-development",
+  "title": "How Vanguard optimizes agile development",
+  "publication_date": "2015-10-05",
+  "format": "Article",
+  "folder": "Strategy & transformation",
+  "source_url": "https://enterprisersproject.com/article/2015/10/how-vanguard-optimizes-agile-development",
+  "featured": false,
+  "summary": "John describes combining agile practices, modular services, automated testing and continuous delivery to shorten feedback cycles and deliver business value.",
+  "provenance": {
+    "type": "existing_archive",
+    "sources": [
+      "media.html",
+      "media_library.csv"
+    ],
+    "publisher_reverification": "pending",
+    "summary_basis": "existing_archive_description"
+  }
+}
