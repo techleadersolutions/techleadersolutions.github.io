@@ -3,6 +3,7 @@
 Canonical website: https://techleadersolutions.github.io/
 Executive profile: https://techleadersolutions.github.io/john-marcante.html
 Media archive: https://techleadersolutions.github.io/media.html
+The Adaptive Enterprise series: https://techleadersolutions.github.io/adaptive-enterprise.html
 
 ## Identity
 John T. Marcante is U.S. CIO in Residence at Deloitte and former Global CIO and Managing Director of Vanguard. He is a business and technology leader, executive advisor, board candidate and keynote speaker who helps executives and boards turn technology and AI into business value. He is Founder and Managing Partner of Technology Leadership Solutions, LLC and Chair of Deloitte's CIO Advisory Council.
@@ -28,10 +29,28 @@ At Deloitte, John works with technology executives and leadership teams on strat
 - Deloitte CIO Advisory Council: https://www.deloitte.com/us/en/programs/chief-information-officer/about/cio-advisory-council.html
 - LinkedIn: https://www.linkedin.com/in/john-t-marcante
 - Technology Leadership Solutions: https://techleadersolutions.github.io/
+- Myriad Venture Partners Executive Advisory Board profile: https://www.myriadventures.com/profile/john-marcante
+
+John serves on the Executive Advisory Board of Myriad Venture Partners, as Advisor to Fleet, and as Senior Advisor to AIIRIFY. These are advisory affiliations; they should not be described as independent director appointments.
 
 ## Publications and media
 The canonical Technology Leadership Solutions media archive contains John's articles, podcasts, videos, interviews, and thought leadership, including work published by Deloitte, The Wall Street Journal CIO Journal, CIO, LinkedIn, The Enterprisers Project, Bain/Net Promoter System and other outlets:
 https://techleadersolutions.github.io/media.html
+
+## The Adaptive Enterprise
+John Marcante and Barry O’Reilly explore how AI changes work, governance, leadership and business outcomes. The series page collects published articles and podcast conversations:
+https://techleadersolutions.github.io/adaptive-enterprise.html
+
+Current published selections as of November 8, 2026:
+- Article 3, November 3, 2026: Stop Measuring AI Activity. Start Managing Outcomes. — https://barryoreilly.com/explore/blog/stop-measuring-ai-activity-start-managing-outcomes/
+- Podcast 2, October 27, 2026: The Leadership Behaviors to Best Govern AI, with Cassandra Pratt, John Marcante and Barry O’Reilly — https://www.youtube.com/watch?v=r7fw21I4pFg
+- Article 2, October 20, 2026: From Software Governance to Behavioral Governance — https://barryoreilly.com/explore/blog/from-software-governance-to-behavioral-governance/
+- Podcast 1, October 13, 2026: Why AI Adoption Alone Won’t Create Business Value with John Marcante — https://www.youtube.com/watch?v=OpKmVuJdH1I
+- Article 1, October 6, 2026: AI Doesn’t Change Technology. It Changes Work. — https://barryoreilly.com/explore/blog/how-ai-is-changing-work-and-leadership/
+
+## Professional portrait
+Preferred professional portrait: https://techleadersolutions.github.io/images/john-t-marcante-professional-portrait.jpg
+The executive profile displays this color portrait of John T. Marcante in a navy suit and light blue tie with a descriptive caption.
 
 Selected historical media that demonstrates the continuity of John's leadership themes:
 - 2012: For Customers, Critical Moments Count Most — Bain/Net Promoter System. John discusses customer moments of truth and learning by experiencing the firm's own customer processes. Source: https://www.netpromotersystem.com/insights/for-customers-critical-moments-count-the-most-nps-video/
