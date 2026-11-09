@@ -6,7 +6,7 @@
   "folder": "04 – Innovation",
   "source_url": "https://enterprisersproject.com/article/2016/4/how-vanguard-uses-design-thinking-improve-customer-experiences",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: How Vanguard Uses Design Thinking.",
+  "summary": "John explains how observing clients during major life events shaped Vanguard’s customer journeys, combining empathetic design, analytics and joint business and technology teams to improve outcomes.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_article_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://enterprisersproject.com/article/2016/4/how-vanguard-uses-design-thinking-improve-customer-experiences"
   }
 }
