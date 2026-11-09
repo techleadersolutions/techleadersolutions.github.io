@@ -6,7 +6,7 @@
   "folder": "01 – Board & Executive Influence",
   "source_url": "https://deloitte.wsj.com/cio/tech-execs-reporting-for-dutybut-where-should-they-report-f94ade27",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: Tech Execs Reporting for Duty: Where Should They Report?.",
+  "summary": "John considers CIO reporting relationships and the broader business competencies needed to contribute effectively to executive decisions and enterprise strategy. Deloitte-sponsored content published on WSJ.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://deloitte.wsj.com/cio/tech-execs-reporting-for-dutybut-where-should-they-report-f94ade27"
   }
 }

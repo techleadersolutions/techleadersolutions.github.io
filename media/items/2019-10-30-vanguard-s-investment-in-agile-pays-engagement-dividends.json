@@ -6,7 +6,7 @@
   "folder": "Leadership & culture",
   "source_url": "https://www.cio.com/article/217742/vanguards-investment-in-agile-pays-employee-engagement-dividends.html",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: Vanguard's Investment in Agile Pays Engagement Dividends.",
+  "summary": "John explains how dedicated product teams, business outcome ownership and continuous delivery helped Vanguard connect agile practices with employee engagement and faster delivery of useful capabilities.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://www.cio.com/article/217742/vanguards-investment-in-agile-pays-employee-engagement-dividends.html"
   }
 }

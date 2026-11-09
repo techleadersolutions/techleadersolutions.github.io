@@ -6,7 +6,7 @@
   "folder": "04 – Innovation",
   "source_url": "https://www.cio.com/article/250577/flywheels-crowdsourcing-and-a-new-office-of-the-cto.html",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: Flywheels, Crowdsourcing, and an Office of the CTO.",
+  "summary": "John explains how Vanguard used a strategy flywheel, a multi-year roadmap and outcome measures to communicate technology’s value and guide transformation.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://www.cio.com/article/250577/flywheels-crowdsourcing-and-a-new-office-of-the-cto.html"
   }
 }

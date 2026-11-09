@@ -6,7 +6,7 @@
   "folder": "02 – Strategy & Transformation",
   "source_url": "https://www.cio.com/article/239103/being-pushed-out-of-your-comfort-zone-can-make-your-it-career.html",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: Being Pushed Out of Your Comfort Zone.",
+  "summary": "This career profile traces John’s moves through technology operations and business leadership, showing how unfamiliar assignments built the broader perspective, business insight and leadership skills he brought to the CIO role.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://www.cio.com/article/239103/being-pushed-out-of-your-comfort-zone-can-make-your-it-career.html"
   }
 }

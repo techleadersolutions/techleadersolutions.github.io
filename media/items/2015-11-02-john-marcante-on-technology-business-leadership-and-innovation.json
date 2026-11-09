@@ -6,7 +6,7 @@
   "folder": "Leadership & culture",
   "source_url": "https://www.metisstrategy.com/interview/john-marcante/",
   "featured": false,
-  "summary": "Archived podcast featuring John Marcante: John Marcante on Technology, Business Leadership, and Innovation.",
+  "summary": "In this Metis Strategy podcast, John discusses customer collaboration, leadership rotations, startup practices, talent development and the CIO’s role in advancing digital business. The publisher provides an episode overview and audio.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://www.metisstrategy.com/interview/john-marcante/"
   }
 }

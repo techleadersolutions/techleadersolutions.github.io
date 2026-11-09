@@ -6,7 +6,7 @@
   "folder": "Leadership & culture",
   "source_url": "https://deloitte.wsj.com/cio/the-winding-path-to-it-leadership-01673466082",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: The Winding Path to IT Leadership.",
+  "summary": "John reflects on challenging assignments, lateral career moves, teamwork and the importance of connecting employee engagement with organizational purpose. Deloitte-sponsored content published on WSJ.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://deloitte.wsj.com/cio/the-winding-path-to-it-leadership-01673466082"
   }
 }

@@ -6,7 +6,7 @@
   "folder": "02 – Strategy & Transformation",
   "source_url": "https://deloitte.wsj.com/cio/strategic-origination-can-help-tech-leaders-imagine-new-opportunities-c49cb648",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: Strategic Origination: Imagining New Opportunities.",
+  "summary": "Tim Buckley and John discuss developing leaders who combine business experience, technology fluency and conceptual thinking to imagine new opportunities. Deloitte-sponsored content published on WSJ.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://deloitte.wsj.com/cio/strategic-origination-can-help-tech-leaders-imagine-new-opportunities-c49cb648"
   }
 }

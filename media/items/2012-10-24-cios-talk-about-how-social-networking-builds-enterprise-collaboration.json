@@ -6,7 +6,7 @@
   "folder": "Leadership & culture",
   "source_url": "https://www.cio.com/article/286574/collaboration-cios-talk-about-how-social-networking-builds-enterprise-collaboration.html",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: CIOs Talk About How Social Networking Builds Enterprise Collaboration.",
+  "summary": "In this CIO interview, John describes enterprise collaboration as a cultural change, explaining the importance of shared knowledge, executive support, grassroots adoption and a clear business purpose.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://www.cio.com/article/286574/collaboration-cios-talk-about-how-social-networking-builds-enterprise-collaboration.html"
   }
 }

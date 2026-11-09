@@ -6,7 +6,7 @@
   "folder": "01 – Board & Executive Influence",
   "source_url": "https://www.wsj.com/podcasts/sponsored/techfluential-by-deloitte/expanding-cio-influence-in-the-c-suite/54c8fff5-487a-4c53-8285-f59e110d4b74",
   "featured": false,
-  "summary": "Archived podcast featuring John Marcante: The CIO as an Enterprise Leader.",
+  "summary": "Tim Buckley and John discuss how business experience, curiosity and technology fluency help CIOs influence enterprise strategy. A Deloitte-sponsored Techfluential podcast hosted by WSJ Custom Content.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://www.wsj.com/podcasts/sponsored/techfluential-by-deloitte/expanding-cio-influence-in-the-c-suite/54c8fff5-487a-4c53-8285-f59e110d4b74"
   }
 }

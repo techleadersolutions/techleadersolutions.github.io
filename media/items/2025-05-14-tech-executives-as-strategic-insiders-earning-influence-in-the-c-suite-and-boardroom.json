@@ -6,7 +6,7 @@
   "folder": "Board governance",
   "source_url": "https://www.linkedin.com/pulse/tech-executives-strategic-insiders-earning-influence-c-suite-john-t-qicce",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: Tech Executives as Strategic Insiders: Earning Influence in the C-Suite and Boardroom.",
+  "summary": "John explains how technology executives earn boardroom and C-suite trust through business fluency, credible delivery, relationships, clear communication and constructive challenge focused on enterprise outcomes.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://www.linkedin.com/pulse/tech-executives-strategic-insiders-earning-influence-c-suite-john-t-qicce"
   }
 }

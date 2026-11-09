@@ -6,7 +6,7 @@
   "folder": "Strategy & transformation",
   "source_url": "https://www.forbes.com/sites/peterhigh/2019/05/20/best-practices-from-vanguards-innovation-studio/",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: Best Practices From Vanguard's Innovation Studio.",
+  "summary": "John and Lisha Davis discuss Vanguard’s Innovation Studio, explaining its focus on faster ways of working, disruptive ideas and stronger connections with startup, university and talent communities.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://www.forbes.com/sites/peterhigh/2019/05/20/best-practices-from-vanguards-innovation-studio/"
   }
 }

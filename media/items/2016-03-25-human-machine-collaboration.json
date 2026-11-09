@@ -6,7 +6,7 @@
   "folder": "04 – Innovation",
   "source_url": "https://www.cio.com/article/240637/roboadvisors-stand-at-the-vanguard-of-human-machine-collaboration.html",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: Roboadvisors and Human-Machine Collaboration.",
+  "summary": "CIO examines Vanguard’s hybrid advice service, with John explaining how technology can scale portfolio planning while human financial advisers provide personalized guidance.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://www.cio.com/article/240637/roboadvisors-stand-at-the-vanguard-of-human-machine-collaboration.html"
   }
 }

@@ -6,7 +6,7 @@
   "folder": "02 – Strategy & Transformation",
   "source_url": "https://www.deloitte.com/us/en/insights/multimedia/podcasts/understanding-the-value-of-tech-strategy.html",
   "featured": false,
-  "summary": "Archived podcast featuring John Marcante: Unleashing Value From Digital Transformation: A Real-World Perspective.",
+  "summary": "John and Tim Smith join Tanya Ott to discuss purpose, operating foundations and the returns organizations seek from digital transformation. Deloitte provides the podcast and transcript.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://www.deloitte.com/us/en/insights/multimedia/podcasts/understanding-the-value-of-tech-strategy.html"
   }
 }
