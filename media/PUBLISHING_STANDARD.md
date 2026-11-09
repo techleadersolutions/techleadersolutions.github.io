@@ -4,7 +4,7 @@ GitHub is the primary site and media source of truth.
 
 ## Add a media item
 1. Add one small JSON record under `media/items/` using `ADD_MEDIA_TEMPLATE.json`.
-2. Use a stable unique `id`, ISO `publication_date` (`YYYY-MM-DD`), canonical HTTPS `source_url`, format, concise summary, topic/folder metadata, and `featured` boolean.
+2. Use a stable unique `id`, ISO `publication_date` (`YYYY-MM-DD`), canonical HTTPS `source_url`, format, concise summary, public `topic`, optional folder metadata, and `featured` boolean. Public topics are `Board governance`, `Leadership & culture`, and `Strategy & transformation`; preserve folder labels as a separate archival classification.
 3. Keep archive presentation newest-first by `publication_date`; do not hand-edit ordering into large HTML files.
 4. If the item belongs in Latest & Featured or a named series, add its relative record path to `media/featured.json`.
 5. Run `node media/validate-media.js` and require the pull-request validation check to pass.
@@ -48,3 +48,7 @@ New publications still require a verified full publication date and HTTPS source
 - The one preserved HTTP archive link is marked `source_url_status: "legacy_unverified"`; this is an evidence gap, not a verified working link. Only documented URLs already present in the CSV qualify. New records require HTTPS.
 
 `node media/audit-reconciliation.js` continues to exit 1 while these historical date/link gaps exist, even after record coverage reaches 88/88. Complete record coverage does not mean all evidence is verified or that legacy rendering can be retired.
+
+## Static rendering checks
+
+Run `python3 media/audit-rendering.py` to compare the homepage archive, Media Gallery and ItemList search metadata with the canonical catalog. It checks URL coverage/uniqueness, titles, dates, formats, chronological ordering and substantive descriptions, plus homepage topic-filter metadata. The two records still lacking substantive descriptions are reported explicitly. This is data parity, not visual/device QA or permission to retire the existing archive. Run `node media/test-archive-gaps.js` for catalog loading, evidence-gap handling and topic-filter membership checks.

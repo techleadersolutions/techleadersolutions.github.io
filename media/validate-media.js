@@ -4,7 +4,7 @@ const path = require('path');
 const root = __dirname;
 const repo = path.resolve(root, '..');
 const itemsDir = path.join(root, 'items');
-const required = ['id','title','publication_date','format','source_url','featured','summary'];
+const required = ['id','title','publication_date','format','source_url','featured','summary','topic'];
 const failures = [];
 const ids = new Map();
 const recordsByFile = new Map();
@@ -54,6 +54,7 @@ for (const file of files) {
     if (!validDate(item.publication_date) && item.featured) failures.push(`${file}: resolve publication date before featuring`);
     if (typeof item.featured !== 'boolean') failures.push(`${file}: featured must be boolean`);
     if (!['Article','Video','Podcast'].includes(item.format)) failures.push(`${file}: unsupported format ${item.format}`);
+    if (!['Board governance','Leadership & culture','Strategy & transformation'].includes(item.topic)) failures.push(`${file}: unsupported topic ${item.topic}`);
     if (typeof item.summary !== 'string' || !item.summary.trim()) failures.push(`${file}: summary must be nonempty text`);
     recordsByFile.set(file,item);
   } catch (error) { failures.push(`${file}: invalid JSON (${error.message})`); }
