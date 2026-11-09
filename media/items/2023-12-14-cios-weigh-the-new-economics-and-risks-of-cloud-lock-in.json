@@ -6,7 +6,7 @@
   "folder": "Strategy & transformation",
   "source_url": "https://www.cio.com/article/1257417/cios-weigh-the-new-economics-and-risks-of-cloud-lock-in.html",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: CIOs Weigh the New Economics and Risks of Cloud Lock-In.",
+  "summary": "John discusses balancing the efficiency of a primary cloud provider with concentration risk, portability and the architectural choices needed to keep future options open.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://www.cio.com/article/1257417/cios-weigh-the-new-economics-and-risks-of-cloud-lock-in.html"
   }
 }

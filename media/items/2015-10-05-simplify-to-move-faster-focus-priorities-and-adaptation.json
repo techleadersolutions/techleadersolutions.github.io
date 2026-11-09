@@ -6,7 +6,7 @@
   "folder": "Strategy & transformation",
   "source_url": "https://www.youtube.com/watch?v=7mFKeQUn4bk",
   "featured": false,
-  "summary": "Archived video featuring John Marcante: Simplify to Move Faster: Focus, Priorities, and Adaptation.",
+  "summary": "A shared vision, a few clear priorities, and the discipline to recognize when your plan needs to change.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "existing_archive_description",
+    "summary_source": "index.html#archive-grid",
+    "summary_migrated_on": "2026-11-09"
   }
 }
