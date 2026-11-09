@@ -1,0 +1,23 @@
+{
+  "id": "go-lean-and-fail-fast",
+  "title": "Go Lean and Fail Fast",
+  "publication_date": null,
+  "publication_date_precision": "unknown",
+  "format": "Article",
+  "folder": "02 – Strategy & Transformation",
+  "source_url": "https://www.cioreview.com/leadership-perspectives/go-lean-and-failfast--nid-12775-cid-47.html",
+  "featured": false,
+  "summary": "John discusses global technology scale, local regulatory requirements, data governance and analytics, hybrid financial advice and an entrepreneurial approach to experimentation.",
+  "provenance": {
+    "type": "existing_archive",
+    "sources": [
+      "media.html",
+      "media_library.csv"
+    ],
+    "date_evidence": "Publisher article has no confirmed publication date; previously observed modification timestamp must not be treated as publication date.",
+    "publisher_reverification": "partial",
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://www.cioreview.com/leadership-perspectives/go-lean-and-failfast--nid-12775-cid-47.html"
+  }
+}

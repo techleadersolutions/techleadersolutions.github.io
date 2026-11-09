@@ -40,7 +40,7 @@ for (const row of legacy) {
   try { if (new URL(row.source_url).protocol !== 'https:') throw Error(); }
   catch { invalidURLs.push({row:row._row,title:row.title,url:row.source_url}); }
   const item = byURL.get(url);
-  if (item) matches.push({row:row._row,id:item.id,title:row.title,metadataMismatch:row.title !== item.title || row.publication_date !== item.publication_date || row.format.replace(/s$/,'').toLowerCase() !== item.format.toLowerCase()});
+  if (item) matches.push({row:row._row,id:item.id,title:row.title,metadataMismatch:row.title !== item.title || row.publication_date !== (item.publication_date || '') || row.format.replace(/s$/,'').toLowerCase() !== item.format.toLowerCase()});
   else missing.push({row:row._row,title:row.title,date:row.publication_date,url:row.source_url});
 }
 const unmatchedStructured = items.filter(x=>!seen.has(normalize(x.source_url))).map(x=>({id:x.id,title:x.title,date:x.publication_date}));

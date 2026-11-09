@@ -8,6 +8,7 @@ const required = ['id','title','publication_date','format','source_url','feature
 const failures = [];
 const ids = new Map();
 const recordsByFile = new Map();
+const legacyCSV = fs.readFileSync(path.join(repo, 'media_library.csv'), 'utf8');
 const files = fs.readdirSync(itemsDir).filter(f => f.endsWith('.json'));
 
 function validDate(s) {
@@ -19,6 +20,26 @@ function validUrl(s) {
   try { const u = new URL(s); return u.protocol === 'https:' && !!u.hostname; }
   catch { return false; }
 }
+function documentedArchiveGap(item) {
+  return item.provenance?.type === 'existing_archive' &&
+    item.provenance?.sources?.includes('media_library.csv') &&
+    typeof item.provenance?.date_evidence === 'string' &&
+    item.provenance.date_evidence.trim().length > 0 &&
+    legacyCSV.includes(item.source_url);
+}
+function validPublicationDate(item) {
+  if (validDate(item.publication_date)) return !item.publication_date_precision || item.publication_date_precision === 'day';
+  if (!documentedArchiveGap(item)) return false;
+  if (item.publication_date_precision === 'unknown') return item.publication_date === null;
+  return item.publication_date_precision === 'month' &&
+    /^\d{4}-(0[1-9]|1[0-2])$/.test(item.publication_date || '');
+}
+function preservedLegacyURL(item) {
+  try {
+    return new URL(item.source_url).protocol === 'http:' &&
+      item.source_url_status === 'legacy_unverified' && documentedArchiveGap(item);
+  } catch { return false; }
+}
 
 for (const file of files) {
   try {
@@ -28,8 +49,9 @@ for (const file of files) {
       if (ids.has(item.id)) failures.push(`${file}: duplicate id ${item.id} (also ${ids.get(item.id)})`);
       else ids.set(item.id,file);
     }
-    if (!validDate(item.publication_date)) failures.push(`${file}: invalid publication_date`);
-    if (!validUrl(item.source_url)) failures.push(`${file}: source_url must be a valid https URL`);
+    if (!validPublicationDate(item)) failures.push(`${file}: invalid or undocumented publication_date`);
+    if (!validUrl(item.source_url) && !preservedLegacyURL(item)) failures.push(`${file}: source_url must be HTTPS or a documented, preserved legacy HTTP URL`);
+    if (!validDate(item.publication_date) && item.featured) failures.push(`${file}: resolve publication date before featuring`);
     if (typeof item.featured !== 'boolean') failures.push(`${file}: featured must be boolean`);
     if (!['Article','Video','Podcast'].includes(item.format)) failures.push(`${file}: unsupported format ${item.format}`);
     if (typeof item.summary !== 'string' || !item.summary.trim()) failures.push(`${file}: summary must be nonempty text`);
@@ -53,9 +75,10 @@ try {
   let previousDate = null;
   for (const ref of catalog.items || []) {
     const item = recordsByFile.get(path.basename(ref));
-    if (!item || !validDate(item.publication_date)) continue;
-    if (previousDate && item.publication_date > previousDate) failures.push(`catalog.json: not newest-first at ${ref}`);
-    previousDate = item.publication_date;
+    if (!item || !validPublicationDate(item)) continue;
+    const dateKey = item.publication_date || '';
+    if (previousDate !== null && dateKey > previousDate) failures.push(`catalog.json: not newest-first at ${ref}`);
+    previousDate = dateKey;
   }
   for (const file of files) if (!catalogFiles.has(file)) failures.push(`catalog.json: structured item not indexed ${file}`);
   for (const ref of catalog.items || []) if (!files.includes(path.basename(ref))) failures.push(`catalog.json: non-item reference ${ref}`);
@@ -76,4 +99,4 @@ for (const siteFile of ['index.html','media.html','adaptive-enterprise.html','jo
 }
 
 if (failures.length) { console.error(failures.join('\n')); process.exit(1); }
-console.log(`Media validation passed: ${files.length} structured item(s), unique IDs, valid dates/URLs, complete catalog indexing, manifest references and core site files.`);
+console.log(`Media validation passed: ${files.length} structured item(s), unique IDs, valid or documented historical dates/URLs, complete catalog indexing, manifest references and core site files.`);

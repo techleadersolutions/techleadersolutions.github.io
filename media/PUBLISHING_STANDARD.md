@@ -36,3 +36,15 @@ After GitHub publication, separately track LinkedIn media/Featured placement and
 9. Assess public discussion and due engagement windows near24h,72h and7days where actual observations exist. Separate reactions, comments and reposts; no inferred impressions, rates or equivalent-age comparisons without inputs. Propose useful replies for review.
 
 Keep using the existing website/media and mention-monitoring tasks; do not create a duplicate release automation. The next release inherits this checklist, with platform-specific review and user preferences preserved.
+
+
+## Historical records with incomplete evidence
+
+New publications still require a verified full publication date and HTTPS source. Historical archive conversions may preserve an explicitly documented evidence gap:
+
+- Use `publication_date: "YYYY-MM"` with `publication_date_precision: "month"` when only the month is established.
+- Use `publication_date: null` with `publication_date_precision: "unknown"` when no publication date is established. Do not substitute a modification, crawl or invented first-of-month date.
+- Both cases require existing-archive provenance, the historical CSV source, and a nonempty `date_evidence` explanation. Undated records sort after dated records. Resolve the date before setting `featured: true`.
+- The one preserved HTTP archive link is marked `source_url_status: "legacy_unverified"`; this is an evidence gap, not a verified working link. Only documented URLs already present in the CSV qualify. New records require HTTPS.
+
+`node media/audit-reconciliation.js` continues to exit 1 while these historical date/link gaps exist, even after record coverage reaches 88/88. Complete record coverage does not mean all evidence is verified or that legacy rendering can be retired.

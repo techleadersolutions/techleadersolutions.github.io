@@ -20,3 +20,5 @@ jobs:
           node-version: '22'
       - name: Validate media records and manifest
         run: node media/validate-media.js
+      - name: Check historical evidence handling and catalog loading
+        run: node media/test-archive-gaps.js
