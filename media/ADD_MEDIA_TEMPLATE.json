@@ -6,6 +6,7 @@
   "series": "Optional series name",
   "series_episode": "Optional series label",
   "folder": "Topic",
+  "topic": "Strategy & transformation",
   "source_url": "https://example.com/source",
   "featured": false,
   "summary": "One concise description of why the item matters."

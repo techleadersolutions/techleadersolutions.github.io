@@ -4,6 +4,9 @@ on:
   pull_request:
     paths:
       - 'media/**'
+      - 'index.html'
+      - 'media.html'
+      - '.github/workflows/validate-media.yml'
   push:
     branches:
       - media-system-phase1-clean
@@ -22,3 +25,5 @@ jobs:
         run: node media/validate-media.js
       - name: Check historical evidence handling and catalog loading
         run: node media/test-archive-gaps.js
+      - name: Check static archive and search metadata parity
+        run: python3 media/audit-rendering.py

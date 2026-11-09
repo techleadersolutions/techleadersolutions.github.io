@@ -25,8 +25,8 @@
     const q = search.trim().toLowerCase();
     return items.filter(item =>
       (!format || item.format === format) &&
-      (!topic || item.folder === topic || item.series === topic) &&
-      (!q || [item.title, item.summary, item.folder, item.series, item.format].filter(Boolean).join(' ').toLowerCase().includes(q))
+      (!topic || item.topic === topic || item.folder === topic || item.series === topic) &&
+      (!q || [item.title, item.summary, item.topic, item.folder, item.series, item.format].filter(Boolean).join(' ').toLowerCase().includes(q))
     );
   }
   global.TLSMedia = { loadCatalog, loadFeatured, filter };

@@ -37,6 +37,7 @@ function rejects(ref, mutate, message) {
     rejects(httpRef, x => delete x.source_url_status, 'unmarked HTTP URL');
     rejects(httpRef, x => x.source_url = 'http://example.com/unverified', 'new HTTP URL');
     rejects(monthRef, x => x.publication_date = '2020-02-30', 'invalid calendar day');
+    rejects(monthRef, x => x.topic = 'Unmapped topic', 'unknown public topic');
     const catalogPath = path.join(temp, 'media/catalog.json');
     const catalog = JSON.parse(fs.readFileSync(catalogPath));
     catalog.items = [unknownRef, ...catalog.items.filter(x => x !== unknownRef)];
@@ -53,6 +54,14 @@ function rejects(ref, mutate, message) {
     assert(items.slice(-unknownCount).every(x => x.publication_date === null));
     assert(items.some(x => x.publication_date === '2020-07'));
     assert.equal(context.window.TLSMedia.filter(items, {search: 'Go Lean and Fail Fast'}).length, 1);
+    const archive = fs.readFileSync(path.join(root, 'index.html'), 'utf8').split('<div id="archive-grid">')[1];
+    const cards = archive.match(/<article class="archive-card"[^>]*>.*?<\/article>/gs);
+    for (const topic of ['Board governance','Leadership & culture','Strategy & transformation']) {
+      const expected = cards.filter(card => card.match(/data-topic="([^"]+)"/)[1].replaceAll('&amp;', '&') === topic)
+        .map(card => card.match(/href="([^"]+)"/)[1]).sort();
+      const actual = Array.from(context.window.TLSMedia.filter(items, {topic}), item => item.source_url).sort();
+      assert.deepEqual(actual, expected, `topic filter parity: ${topic}`);
+    }
     const featured = await context.window.TLSMedia.loadFeatured();
     assert(featured.featured.every(x => /^\d{4}-\d{2}-\d{2}$/.test(x.publication_date)));
     console.log(`Archive evidence tests passed: valid gaps, invalid dates, HTTP restrictions, ordering, ${items.length}-record loading, search and featured records.`);
