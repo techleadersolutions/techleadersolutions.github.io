@@ -6,7 +6,7 @@
   "folder": "02 – Strategy & Transformation",
   "source_url": "https://enterprisersproject.com/article/2022/1/maintaining-momentum-digital-transformation-new-hbr-analytic-services-report",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: Maintaining Momentum in Digital Transformation.",
+  "summary": "A publisher overview of HBR Analytic Services research on sustaining transformation while addressing burnout, skills and resilience, including John’s experience broadening recruitment into technology careers.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://enterprisersproject.com/article/2022/1/maintaining-momentum-digital-transformation-new-hbr-analytic-services-report"
   }
 }

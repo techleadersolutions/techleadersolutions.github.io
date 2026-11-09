@@ -6,7 +6,7 @@
   "folder": "Strategy & transformation",
   "source_url": "https://enterprisersproject.com/article/2014/8/vanguard-cio-your-entire-c-suite-needs-keep-technology-trends",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: Your Entire C-Suite Needs to Keep Up With Technology.",
+  "summary": "John argues that understanding technology’s opportunities and competitive threats is a shared executive responsibility, describing leadership education and exploration of emerging companies and technologies at Vanguard.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://enterprisersproject.com/article/2014/8/vanguard-cio-your-entire-c-suite-needs-keep-technology-trends"
   }
 }

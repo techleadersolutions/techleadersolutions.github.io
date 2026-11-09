@@ -6,7 +6,7 @@
   "folder": "03 – Leadership & Culture",
   "source_url": "https://enterprisersproject.com/article/2014/8/best-it-mentorships-are-two-way-street",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: The Best IT Mentorships Are a Two-Way Street.",
+  "summary": "John advocates mutual learning in mentoring relationships and broader channels for employee ideas, explaining how feedback and idea campaigns help leaders understand both innovation opportunities and strategic understanding.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://enterprisersproject.com/article/2014/8/best-it-mentorships-are-two-way-street"
   }
 }

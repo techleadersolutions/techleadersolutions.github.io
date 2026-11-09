@@ -6,7 +6,7 @@
   "folder": "Leadership & culture",
   "source_url": "https://enterprisersproject.com/article/four-ways-vanguard-it-recruits-and-retains-top-college-talent",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: Four Ways Vanguard IT Recruits and Retains Top College Talent.",
+  "summary": "John describes recruiting through Vanguard’s mission, a wider range of college majors and leadership potential, supported by a two-year program combining technical development, training and rotational assignments.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://enterprisersproject.com/article/four-ways-vanguard-it-recruits-and-retains-top-college-talent"
   }
 }

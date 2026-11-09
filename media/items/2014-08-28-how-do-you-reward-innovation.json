@@ -6,7 +6,7 @@
   "folder": "Leadership & culture",
   "source_url": "https://enterprisersproject.com/article/2014/8/how-do-you-reward-innovation",
   "featured": false,
-  "summary": "Archived video featuring John Marcante: How Do You Reward Innovation?.",
+  "summary": "In this publisher-hosted video feature, John discusses why recognition can matter more than financial rewards when encouraging innovation.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://enterprisersproject.com/article/2014/8/how-do-you-reward-innovation"
   }
 }

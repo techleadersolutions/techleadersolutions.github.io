@@ -6,7 +6,7 @@
   "folder": "03 – Leadership & Culture",
   "source_url": "https://enterprisersproject.com/article/2022/11/6-non-negotiable-skills-cios-2023",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: 6 Non-Negotiable Skills for CIOs.",
+  "summary": "John outlines six CIO priorities: blend business and technology expertise, create growth opportunities, connect organizational seams, focus on clients and mission, strengthen culture and rethink hiring.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://enterprisersproject.com/article/2022/11/6-non-negotiable-skills-cios-2023"
   }
 }

@@ -6,7 +6,7 @@
   "folder": "04 – Innovation",
   "source_url": "https://enterprisersproject.com/article/2016/5/software-centric-roundtable",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: Software-Centric Roundtable.",
+  "summary": "A publisher introduction to a five-executive roundtable, including John, on using software for competitive advantage, customer outcomes and business growth. The page links to the downloadable discussion.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://enterprisersproject.com/article/2016/5/software-centric-roundtable"
   }
 }

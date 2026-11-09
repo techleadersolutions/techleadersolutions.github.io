@@ -6,7 +6,7 @@
   "folder": "Strategy & transformation",
   "source_url": "https://enterprisersproject.com/article/2014/7/cio-report-roundtable",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: CIOs: Stay Relevant With This Advice From 7 Veteran IT Executives.",
+  "summary": "Seven executives discuss strengthening IT’s role as a business partner. The publisher highlights John’s use of internal Net Promoter feedback to identify strengths and gaps in technology service.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://enterprisersproject.com/article/2014/7/cio-report-roundtable"
   }
 }
