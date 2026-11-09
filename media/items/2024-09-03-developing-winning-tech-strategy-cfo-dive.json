@@ -6,7 +6,7 @@
   "folder": "01 – Board & Executive Influence",
   "source_url": "https://www.cfodive.com/news/developing-winning-tech-strategy-organization-deloitte/725071/",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: Developing a Winning Tech Strategy.",
+  "summary": "John Marcante and Frank D’Amelio explain how finance and technology leaders can build shared business understanding, develop cross-functional teams, and balance innovation with resilience.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_article_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://www.cfodive.com/news/developing-winning-tech-strategy-organization-deloitte/725071/"
   }
 }
