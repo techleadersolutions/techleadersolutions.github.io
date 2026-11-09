@@ -6,7 +6,7 @@
   "folder": "03 – Leadership & Culture",
   "source_url": "https://enterprisersproject.com/article/2015/6/vanguard-cio-retaining-it-talent-begins-developing-strong-leaders",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: Retaining IT Talent Begins With Strong Leaders.",
+  "summary": "John connects technology talent retention with stronger front-line managers, leadership development, employee engagement feedback and consistent people-management practices.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_article_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://enterprisersproject.com/article/2015/6/vanguard-cio-retaining-it-talent-begins-developing-strong-leaders"
   }
 }
