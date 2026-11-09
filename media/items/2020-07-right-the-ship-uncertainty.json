@@ -1,0 +1,23 @@
+{
+  "id": "right-the-ship-uncertainty",
+  "title": "Right the Ship: Staying Afloat in Times of Uncertainty",
+  "publication_date": "2020-07",
+  "publication_date_precision": "month",
+  "format": "Article",
+  "folder": "05 – Crisis Leadership",
+  "source_url": "https://www.evanta.com/resources/cio/leadership-profile/right-the-ship-staying-afloat-in-times-of-uncertainty",
+  "featured": false,
+  "summary": "In this Evanta leadership profile, John discusses compassionate leadership, remote work, transparent communication and maintaining client service during the pandemic.",
+  "provenance": {
+    "type": "existing_archive",
+    "sources": [
+      "media.html",
+      "media_library.csv"
+    ],
+    "date_evidence": "Publisher page displays July 2020 only; the day is not established. Reviewed 2026-11-09.",
+    "publisher_reverification": "partial",
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://www.evanta.com/resources/cio/leadership-profile/right-the-ship-staying-afloat-in-times-of-uncertainty"
+  }
+}

@@ -9,7 +9,8 @@
   async function loadCatalog(base = ROOT) {
     const catalog = await json(`${base}catalog.json`);
     const items = await Promise.all((catalog.items || []).map(ref => json(`${base}${ref}`)));
-    return items.sort((a, b) => b.publication_date.localeCompare(a.publication_date));
+    // Preserve month-only dates; genuinely unknown dates sort after known dates.
+    return items.sort((a, b) => (b.publication_date || '').localeCompare(a.publication_date || ''));
   }
   async function loadFeatured(base = ROOT) {
     const manifest = await json(`${base}featured.json`);
