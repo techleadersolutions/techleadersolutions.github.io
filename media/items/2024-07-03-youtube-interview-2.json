@@ -6,7 +6,7 @@
   "folder": "07 – Media",
   "source_url": "https://youtu.be/elRJFfgXVsg",
   "featured": false,
-  "summary": "Archived video featuring John Marcante: Servant Leadership: Trust, Gratitude, and Stronger Teams.",
+  "summary": "A conversation with Barry O’Reilly on listening to clients and employees, leading through service, and staying grounded in your values.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "existing_archive_description",
+    "summary_source": "index.html#archive-grid",
+    "summary_migrated_on": "2026-11-09"
   }
 }

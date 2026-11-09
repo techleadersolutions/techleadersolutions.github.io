@@ -6,7 +6,7 @@
   "folder": "Strategy & transformation",
   "source_url": "https://www.cio.com/article/3487339/ai-to-go-nuclear-data-center-deals-say-its-inevitable.html",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: AI to Go Nuclear? Data Center Deals Say It’s Inevitable.",
+  "summary": "In CIO’s reporting on AI energy demand, John highlights hardware efficiency, cooling, edge computing and distributed architectures as complementary responses to growing data-center power needs.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://www.cio.com/article/3487339/ai-to-go-nuclear-data-center-deals-say-its-inevitable.html"
   }
 }

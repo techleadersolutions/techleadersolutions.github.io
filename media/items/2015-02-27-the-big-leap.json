@@ -6,7 +6,7 @@
   "folder": "06 – Career",
   "source_url": "https://www.waterstechnology.com/waters/feature/2395776/vanguard-cio-john-marcante-the-big-leap",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: John Marcante: The Big Leap.",
+  "summary": "WatersTechnology’s year-in-review identifies this March 2015 profile as an interview with John about career turning points and their influence on his professional path.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,9 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_retrospective_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://www.waterstechnology.com/management-strategy/2439864/2015-a-year-in-profiles",
+    "original_article_access": "unavailable during 2026-11-09 review"
   }
 }
