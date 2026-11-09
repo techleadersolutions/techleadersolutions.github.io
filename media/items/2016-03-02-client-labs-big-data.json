@@ -6,7 +6,7 @@
   "folder": "04 – Innovation",
   "source_url": "https://enterprisersproject.com/article/2015/8/client-labs-big-data-how-vanguard-has-evolved-customer-experience",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: Client Labs and Big Data: Evolving Customer Experience.",
+  "summary": "John traces Vanguard’s customer research from usability labs to live experiments and combined digital and service data, and explains how internal Net Promoter feedback helped IT improve its business partnerships.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://enterprisersproject.com/article/2015/8/client-labs-big-data-how-vanguard-has-evolved-customer-experience"
   }
 }

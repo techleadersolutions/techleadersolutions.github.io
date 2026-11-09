@@ -6,7 +6,7 @@
   "folder": "Strategy & transformation",
   "source_url": "https://enterprisersproject.com/article/vanguard-cio-it-must-enable-and-accelerate-new-products-and-services",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: Vanguard CIO: IT Must Enable and Accelerate New Products and Services.",
+  "summary": "In this interview, John explains how business credibility, a technology strategy and an outcome-based scorecard helped Vanguard connect IT investment with client loyalty, growth and new services.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://enterprisersproject.com/article/vanguard-cio-it-must-enable-and-accelerate-new-products-and-services"
   }
 }

@@ -6,7 +6,7 @@
   "folder": "Leadership & culture",
   "source_url": "https://enterprisersproject.com/article/2014/10/are-you-enterpriser",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: Are You an Enterpriser?.",
+  "summary": "In a short video and transcript, John explains why business and technology leaders need to learn each other’s disciplines so the whole organization can use technology effectively.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://enterprisersproject.com/article/2014/10/are-you-enterpriser"
   }
 }

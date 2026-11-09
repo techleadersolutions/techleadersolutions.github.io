@@ -6,7 +6,7 @@
   "folder": "Leadership & culture",
   "source_url": "https://enterprisersproject.com/article/2014/8/be-great-it-leader-you-need-these-competencies",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: To Be a Great IT Leader, You Need These Competencies.",
+  "summary": "John sets out three foundations for technology leadership: technical expertise, business understanding and the ability to lead. He describes rotations, embedded assignments and education that develop those capabilities.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://enterprisersproject.com/article/2014/8/be-great-it-leader-you-need-these-competencies"
   }
 }

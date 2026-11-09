@@ -6,7 +6,7 @@
   "folder": "Strategy & transformation",
   "source_url": "https://enterprisersproject.com/article/2015/12/why-2016-going-be-year-relevance-it",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: Why 2016 Would Be a Year of IT Relevance.",
+  "summary": "E.G. Nadhan examines the business relevance of automation, innovation, integration, cloud and technology, citing John’s argument that aspiring leaders should become technology strategists.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://enterprisersproject.com/article/2015/12/why-2016-going-be-year-relevance-it"
   }
 }

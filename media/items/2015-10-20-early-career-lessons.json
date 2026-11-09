@@ -6,7 +6,7 @@
   "folder": "06 – Career",
   "source_url": "https://enterprisersproject.com/article/2015/10/hindsight-what-7-it-leaders-wish-they-had-known-early-their-careers",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: Hindsight: What IT Leaders Wish They Had Known.",
+  "summary": "In a collection of career reflections from seven technology leaders, John emphasizes motivating people, building teams and leading change as essential skills beyond technical expertise.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://enterprisersproject.com/article/2015/10/hindsight-what-7-it-leaders-wish-they-had-known-early-their-careers"
   }
 }

@@ -6,7 +6,7 @@
   "folder": "Strategy & transformation",
   "source_url": "https://enterprisersproject.com/article/2014/8/map-out-future-state-it-your-organization",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: How Vanguard Is Tackling the New Normal for IT.",
+  "summary": "John describes Vanguard’s three-year technology transformation roadmap, supporting organizational changes and outcome measures, shaped by global operations, cyber threats, client expectations and competition for talent.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://enterprisersproject.com/article/2014/8/map-out-future-state-it-your-organization"
   }
 }

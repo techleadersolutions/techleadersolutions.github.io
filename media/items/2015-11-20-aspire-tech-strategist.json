@@ -6,7 +6,7 @@
   "folder": "06 – Career",
   "source_url": "https://enterprisersproject.com/article/2015/8/aspire-be-technology-strategist-whatever-your-title-says",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: Aspire to Be a Technology Strategist.",
+  "summary": "John explains why executives across disciplines need technology fluency, while CIOs need business insight and leadership skills to contribute to enterprise strategy and innovation.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://enterprisersproject.com/article/2015/8/aspire-be-technology-strategist-whatever-your-title-says"
   }
 }
