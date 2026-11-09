@@ -6,7 +6,7 @@
   "folder": "Strategy & transformation",
   "source_url": "https://www.cio.com/article/244886/from-service-provider-to-growth-leader.html",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: From Service Provider to Growth Leader.",
+  "summary": "John discusses IT’s growing responsibility for client loyalty and business growth, explaining how leadership rotations and investments in data capabilities helped technology teams contribute beyond service delivery.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://www.cio.com/article/244886/from-service-provider-to-growth-leader.html"
   }
 }

@@ -6,7 +6,7 @@
   "folder": "02 – Strategy & Transformation",
   "source_url": "https://www.cio.com/article/189494/vanguard-cio-john-marcante-on-the-startup-mentality.html",
   "featured": false,
-  "summary": "Archived video featuring John Marcante: John Marcante on the Startup Mentality.",
+  "summary": "In CIO Leadership Live, John discusses integrating technology with corporate strategy, building an innovation culture and gaining empathy and business insight through leadership rotations and direct client experience.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://www.cio.com/article/189494/vanguard-cio-john-marcante-on-the-startup-mentality.html"
   }
 }

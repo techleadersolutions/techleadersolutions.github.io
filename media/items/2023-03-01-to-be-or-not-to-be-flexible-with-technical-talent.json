@@ -6,7 +6,7 @@
   "folder": "Leadership & culture",
   "source_url": "https://deloitte.wsj.com/cio/to-be-or-not-to-be-flexible-with-technical-talent-754b95b6",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: To Be or Not to Be Flexible With Technical Talent.",
+  "summary": "John examines flexible work through the needs of roles and individuals, arguing for deliberate investment in culture and meaningful employee experiences. Deloitte-sponsored content published on WSJ.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://deloitte.wsj.com/cio/to-be-or-not-to-be-flexible-with-technical-talent-754b95b6"
   }
 }

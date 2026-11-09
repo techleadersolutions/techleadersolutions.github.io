@@ -6,7 +6,7 @@
   "folder": "03 – Leadership & Culture",
   "source_url": "https://www.cio.com/article/234615/tips-for-building-a-culture-around-business-outcomes.html",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: Building a Culture Around Business Outcomes.",
+  "summary": "Martha Heller examines ways to build business acumen in IT, including John’s example of rotating leaders through business operations before returning them to technology roles with stronger people-management skills.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://www.cio.com/article/234615/tips-for-building-a-culture-around-business-outcomes.html"
   }
 }

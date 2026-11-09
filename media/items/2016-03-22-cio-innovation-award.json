@@ -6,7 +6,7 @@
   "folder": "04 – Innovation",
   "source_url": "https://www.forbes.com/sites/peterhigh/2016/03/22/forbes-cio-innovation-award-vanguard-cio-helps-drive-development-of-digital-cfo-idea/",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: Forbes CIO Innovation Award: Digital CFO.",
+  "summary": "Forbes recognizes John with its 2016 CIO Innovation Award and explores Vanguard Personal Advisor Services, which combined automated portfolio capabilities with personalized planning and human financial advice.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://www.forbes.com/sites/peterhigh/2016/03/22/forbes-cio-innovation-award-vanguard-cio-helps-drive-development-of-digital-cfo-idea/"
   }
 }

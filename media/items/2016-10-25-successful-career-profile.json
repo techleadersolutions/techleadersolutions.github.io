@@ -6,7 +6,7 @@
   "folder": "06 – Career",
   "source_url": "https://vista.today/2016/10/chester-county-careers-take-build-successful-career/",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: What Does It Take to Build a Successful Career?.",
+  "summary": "Reflecting on Vanguard’s IT Explore Day, John identifies passion, compassion, ingenuity and a balance of technical and interpersonal skills as foundations for a successful technology career.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://vista.today/2016/10/chester-county-careers-take-build-successful-career/"
   }
 }

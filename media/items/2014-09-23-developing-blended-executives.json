@@ -6,7 +6,7 @@
   "folder": "Leadership & culture",
   "source_url": "https://www.cio.com/article/250538/developing-blended-executives.html",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: Developing Blended Executives.",
+  "summary": "Martha Heller interviews John about developing leaders who combine technology expertise, business understanding and influence, and why executive teams need shared technology fluency.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://www.cio.com/article/250538/developing-blended-executives.html"
   }
 }

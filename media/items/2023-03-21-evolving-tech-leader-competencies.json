@@ -6,7 +6,7 @@
   "folder": "03 – Leadership & Culture",
   "source_url": "https://deloitte.wsj.com/cio/the-evolving-competencies-of-the-technology-leader-6b590c2b",
   "featured": false,
-  "summary": "Archived article featuring John Marcante: The Evolving Competencies of the Technology Leader.",
+  "summary": "John examines the CIO’s expanding responsibilities for business growth, client outcomes, executive education and enterprise integration alongside technology and operational resilience. Deloitte-sponsored content published on WSJ.",
   "provenance": {
     "type": "existing_archive",
     "sources": [
@@ -14,6 +14,8 @@
       "media_library.csv"
     ],
     "publisher_reverification": "pending",
-    "summary_basis": "archive_title_only"
+    "summary_basis": "publisher_page_review",
+    "summary_verified_on": "2026-11-09",
+    "summary_source": "https://deloitte.wsj.com/cio/the-evolving-competencies-of-the-technology-leader-6b590c2b"
   }
 }
