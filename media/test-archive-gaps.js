@@ -54,8 +54,8 @@ function rejects(ref, mutate, message) {
     assert(items.slice(-unknownCount).every(x => x.publication_date === null));
     assert(items.some(x => x.publication_date === '2020-07'));
     assert.equal(context.window.TLSMedia.filter(items, {search: 'Go Lean and Fail Fast'}).length, 1);
-    const archive = fs.readFileSync(path.join(root, 'index.html'), 'utf8').split('<div id="archive-grid">')[1];
-    const cards = archive.match(/<article class="archive-card"[^>]*>.*?<\/article>/gs);
+    const archive = fs.readFileSync(path.join(root, 'media.html'), 'utf8').split('<div class="media-grid">')[1];
+    const cards = archive.match(/<article class="media-item"[^>]*>.*?<\/article>/gs);
     for (const topic of ['Board governance','Leadership & culture','Strategy & transformation']) {
       const expected = cards.filter(card => card.match(/data-topic="([^"]+)"/)[1].replaceAll('&amp;', '&') === topic)
         .map(card => card.match(/href="([^"]+)"/)[1]).sort();

@@ -52,3 +52,5 @@ New publications still require a verified full publication date and HTTPS source
 ## Static rendering checks
 
 Run `python3 media/audit-rendering.py` to compare the homepage archive, Media Gallery and ItemList search metadata with the canonical catalog. It checks URL coverage/uniqueness, titles, dates, formats, chronological ordering and substantive descriptions, plus homepage topic-filter metadata. The two records still lacking substantive descriptions are reported explicitly. This is data parity, not visual/device QA or permission to retire the existing archive. Run `node media/test-archive-gaps.js` for catalog loading, evidence-gap handling and topic-filter membership checks.
+
+The full public archive and ItemList live on media.html. When changing podcast coverage or the newest nine articles, also refresh the corresponding static homepage slider; audit-rendering.py checks its URLs and order against the catalog.
