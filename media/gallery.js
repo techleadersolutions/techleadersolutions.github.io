@@ -31,6 +31,47 @@
     update();
     search.focus();
   });
+  for (const shelf of document.querySelectorAll('[data-media-shelf]')) {
+    const track = shelf.querySelector('.shelf-track');
+    const limit = Number(shelf.dataset.limit);
+    const matches = entries.filter(entry => entry.format === shelf.dataset.mediaShelf);
+    const selection = limit ? matches.slice(0, limit) : matches;
+    if (!selection.length) continue;
+    for (const { card } of selection) {
+      const item = document.createElement('li');
+      const preview = card.cloneNode(true);
+      preview.hidden = false;
+      preview.removeAttribute('id');
+      preview.querySelectorAll('[id]').forEach(node => node.removeAttribute('id'));
+      item.append(preview);
+      track.append(item);
+    }
+    const previous = shelf.querySelector('[data-step="-1"]');
+    const next = shelf.querySelector('[data-step="1"]');
+    function updateArrows() {
+      previous.disabled = track.scrollLeft <= 2;
+      next.disabled = track.scrollLeft + track.clientWidth >= track.scrollWidth - 2;
+    }
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+    function step(direction) {
+      const stride = track.children.length > 1
+        ? track.children[1].offsetLeft - track.children[0].offsetLeft
+        : track.clientWidth;
+      track.scrollBy({ left: direction * stride, behavior: reduced.matches ? 'instant' : 'smooth' });
+    }
+    previous.addEventListener('click', () => step(-1));
+    next.addEventListener('click', () => step(1));
+    track.addEventListener('scroll', updateArrows, { passive: true });
+    window.addEventListener('resize', updateArrows);
+    shelf.querySelector('[data-show-format]').addEventListener('click', () => {
+      search.value = '';
+      format.value = shelf.dataset.mediaShelf;
+      update();
+      document.getElementById('media-archive').focus({ preventScroll: true });
+    });
+    shelf.hidden = false;
+    updateArrows();
+  }
   controls.hidden = false;
   update();
 })();
