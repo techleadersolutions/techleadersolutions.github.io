@@ -3,7 +3,10 @@
   const controls = document.querySelector('[data-gallery-controls]');
   if (!controls) return;
   const search = controls.querySelector('input');
-  const format = controls.querySelector('select');
+  const format = controls.querySelector('#gallery-format');
+  const topic = controls.querySelector('#gallery-topic');
+  const incoming = new URLSearchParams(window.location.search).get('format');
+  format.value = ({ articles: 'Articles', podcasts: 'Podcasts', videos: 'Videos' })[incoming] || '';
   const cards = [...document.querySelectorAll('.media-grid .media-item')];
   const status = document.getElementById('gallery-status');
   const empty = document.getElementById('gallery-empty');
@@ -16,7 +19,7 @@
     const terms = search.value.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
     let count = 0;
     for (const entry of entries) {
-      const visible = (!format.value || entry.format === format.value) && terms.every(term => entry.text.includes(term));
+      const visible = (!format.value || entry.format === format.value) && (!topic.value || entry.card.dataset.topic === topic.value) && terms.every(term => entry.text.includes(term));
       entry.card.hidden = !visible;
       if (visible) count++;
     }
@@ -25,8 +28,10 @@
   }
   search.addEventListener('input', update);
   format.addEventListener('change', update);
+  topic.addEventListener('change', update);
   controls.querySelector('button').addEventListener('click', () => {
     search.value = '';
+    topic.value = '';
     format.value = '';
     update();
     search.focus();
@@ -65,6 +70,7 @@
     window.addEventListener('resize', updateArrows);
     shelf.querySelector('[data-show-format]').addEventListener('click', () => {
       search.value = '';
+    topic.value = '';
       format.value = shelf.dataset.mediaShelf;
       update();
       document.getElementById('media-archive').focus({ preventScroll: true });
