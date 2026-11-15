@@ -26,3 +26,9 @@
 #media-archive{scroll-margin-top:1rem}
 @media(max-width:800px){.shelf-track{grid-auto-columns:calc((100% - 16px)/2)}}
 @media(max-width:560px){.shelf-track{grid-auto-columns:min(86%,340px)}}
+
+.media-item[data-format="Articles"]{display:flex;flex-direction:column}
+.media-item[data-format="Articles"][hidden]{display:none}
+.media-item[data-format="Articles"] h3{margin-top:0}
+.media-item .article-meta{color:#465768;font-size:.85rem;line-height:1.45;margin:0 0 10px}
+.media-item[data-format="Articles"] a{align-self:flex-start;margin-top:auto}
