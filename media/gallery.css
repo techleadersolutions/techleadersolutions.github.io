@@ -32,3 +32,5 @@
 .media-item[data-format="Articles"] h3{margin-top:0}
 .media-item .article-meta{color:#465768;font-size:.85rem;line-height:1.45;margin:0 0 10px}
 .media-item[data-format="Articles"] a{align-self:flex-start;margin-top:auto}
+
+.archive-video-art{display:block;width:100%;height:auto;border-radius:6px;margin:0 0 12px}
