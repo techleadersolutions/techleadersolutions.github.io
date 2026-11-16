@@ -79,7 +79,7 @@ if (process.env.GITHUB_ACTIONS === 'true') {
       'const sizes=[320,375,390,430,768,1280];Promise.all(sizes.map(w=>new Promise(res=>{' +
       'const f=document.createElement("iframe");f.width=w;f.height=920;f.style.display="block";' +
       'f.onload=()=>{try{const d=f.contentDocument,s=d.querySelector("#about"),g=s.querySelector(".leadership-grid"),b=s.querySelector(".leadership-bio"),h=s.querySelector("h2"),grid=f.contentWindow.getComputedStyle(g).gridTemplateColumns.split(" ").length;' +
-      'if(d.documentElement.clientWidth!==w||d.documentElement.scrollWidth>w||s.scrollWidth>s.clientWidth||grid!==(w<=760?1:2)||b.getBoundingClientRect().height<44||h.textContent!=="Leadership & Board Experience"||!d.querySelector("#about #boards")||s.querySelectorAll("[href=\'john-marcante.html\']").length!==1)throw Error([w,d.documentElement.scrollWidth,grid,b.getBoundingClientRect().height]);res(w+":pass");}catch(e){res(w+":"+e.message);}};' +
+      'if(f.contentWindow.innerWidth!==w||d.documentElement.scrollWidth>d.documentElement.clientWidth||s.scrollWidth>s.clientWidth||grid!==(w<=760?1:2)||b.getBoundingClientRect().height<44||h.textContent!=="Leadership & Board Experience"||!d.querySelector("#about #boards")||s.querySelectorAll("[href=\'john-marcante.html\']").length!==1)throw Error([w,d.documentElement.scrollWidth,grid,b.getBoundingClientRect().height]);res(w+":pass");}catch(e){res(w+":"+e.message);}};' +
       'f.srcdoc=source;document.body.append(f);}))).then(results=>{const pre=document.createElement("pre");pre.id="results";pre.textContent=results.join(",");document.body.append(pre);});</script>';
     const file=path.join(dir,'qa.html');
     fs.writeFileSync(file,shell);
