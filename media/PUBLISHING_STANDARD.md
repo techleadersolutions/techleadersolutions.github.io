@@ -19,6 +19,12 @@ Do not retire `media.html` until every legacy/archive item has a corresponding s
 ## Validation requirements
 Validation must reject invalid JSON, missing required fields, duplicate IDs, invalid calendar dates, malformed/non-HTTPS source URLs, non-boolean featured flags, missing/duplicate featured references, and missing core site pages. Site/build checks should remain additive and non-destructive.
 
+## Article and video card artwork
+
+1. Select and verify artwork on GitHub first. Prefer the article’s own cover or in-article image, or the original video thumbnail or publisher still. Use a separately created image only when suitable source artwork is unavailable.
+2. Match cards by canonical publication or video URL. Use the same selected image for the item on the GitHub homepage, Media Gallery, series page and Wix wherever the card appears.
+3. After the GitHub release, mirror the image and crop on Wix. Check both sites for placeholders, broken images and cropped text or faces on desktop and mobile. For diagrams with explanatory text, use a contained image and an accessible description.
+
 ## Distribution tracking
 After GitHub publication, separately track LinkedIn media/Featured placement and Wix parity. GitHub remains authoritative; Wix is a secondary mirror/backup and should not become a competing source of truth.
 
