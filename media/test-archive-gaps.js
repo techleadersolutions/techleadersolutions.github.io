@@ -67,26 +67,3 @@ function rejects(ref, mutate, message) {
     console.log(`Archive evidence tests passed: valid gaps, invalid dates, HTTP restrictions, ordering, ${items.length}-record loading, search and featured records.`);
   } finally { fs.rmSync(temp, { recursive: true, force: true }); }
 })().catch(error => { console.error(error); process.exitCode = 1; });
-
-
-/* One-off PR preview check: restored before merge. */
-if (process.env.GITHUB_ACTIONS === 'true') {
-  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'tls-home-preview-'));
-  try {
-    const source = fs.readFileSync(path.join(root, 'index.html'), 'utf8').replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'');
-    const shell = '<!doctype html><meta charset=utf-8><body>waiting<script>const source=' +
-      JSON.stringify(source).replace(/</g,'\\u003c') + ';' +
-      'const sizes=[320,375,390,430,768,1280];Promise.all(sizes.map(w=>new Promise(res=>{' +
-      'const f=document.createElement("iframe");f.width=w;f.height=920;f.style.display="block";' +
-      'f.onload=()=>{try{const d=f.contentDocument,s=d.querySelector("#about"),g=s.querySelector(".leadership-grid"),b=s.querySelector(".leadership-bio"),h=s.querySelector("h2"),grid=f.contentWindow.getComputedStyle(g).gridTemplateColumns.split(" ").length;' +
-      'if(f.contentWindow.innerWidth!==w||d.documentElement.scrollWidth>d.documentElement.clientWidth||s.scrollWidth>s.clientWidth||grid!==(w<=760?1:2)||b.getBoundingClientRect().height<44||h.textContent!=="Leadership & Board Experience"||!d.querySelector("#about #boards")||s.querySelectorAll("[href=\'john-marcante.html\']").length!==1)throw Error([w,d.documentElement.scrollWidth,grid,b.getBoundingClientRect().height]);res(w+":pass");}catch(e){res(w+":"+e.message);}};' +
-      'f.srcdoc=source;document.body.append(f);}))).then(results=>{const pre=document.createElement("pre");pre.id="results";pre.textContent=results.join(",");document.body.append(pre);});</script>';
-    const file=path.join(dir,'qa.html');
-    fs.writeFileSync(file,shell);
-    const args=['--headless','--disable-gpu','--no-sandbox','--disable-dev-shm-usage','--disable-background-networking','--virtual-time-budget=10000','--dump-dom','file://'+file];
-    const result=spawnSync('google-chrome',args,{encoding:'utf8',timeout:40000,maxBuffer:8*1024*1024});
-    const outcome=(result.stdout||'').match(/<pre id="results">([^<]+)<\/pre>/)?.[1];
-    assert.equal(outcome,'320:pass,375:pass,390:pass,430:pass,768:pass,1280:pass',outcome||result.stderr||String(result.error));
-    console.log('Homepage browser layout passed: '+outcome);
-  } finally { fs.rmSync(dir,{recursive:true,force:true}); }
-}
