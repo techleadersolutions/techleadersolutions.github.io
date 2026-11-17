@@ -101,8 +101,11 @@ for page, marker, card_class in [
     report[page] = {'cards': len(cards), 'substantive_summaries': len(cards)-len(missing_summaries), 'unresolved_summaries': missing_summaries}
 home = (ROOT / 'index.html').read_text()
 for fmt, limit in [('Podcast', None), ('Article', 9)]:
-    section = home.split(f'data-home-format="{fmt}s"', 1)[1].split('</section>', 1)[0]
-    cards = re.findall(r'<article class="home-shelf-card"[^>]*>.*?</article>', section, re.S)
+    section = re.search(rf'<section\b[^>]*\bdata-home-format="{fmt}s"[^>]*>(.*?)</section>', home, re.S)
+    if section is None:
+        errors.append(f'index.html: {fmt} slider section is missing')
+        continue
+    cards = re.findall(r'<article class="home-shelf-card"[^>]*>.*?</article>', section.group(1), re.S)
     expected = [item['source_url'] for item in ITEMS if item['format'] == fmt][:limit]
     if [attr(card, 'href') for card in cards] != expected:
         errors.append(f'index.html: {fmt} slider coverage or order differs from catalog')
